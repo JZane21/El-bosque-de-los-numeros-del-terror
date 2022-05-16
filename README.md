@@ -10,9 +10,23 @@ Para ejecutar el videojuego, se deben seguir los siguientes pasos:
 1.- Se debe instalar el compilador de C++, es decir el gcc y el gpp.
 ### Windows 10
 * Para dar inicio a la instalaciòn en Windows, se debe dar click en el siguiente enlace:
+https://sourceforge.net/projects/mingw/files/
+
+* Una vez descargado el archivo, se abrirá una automáticamente su Intaller Manager, del cual tenemos que hacer lo siguiente:
+
+
+* Luego de esperar a que se instale todo, tenemos copiar la ruta de la carpeta bin.
+
+* Presionamos la tecla windows y debemos escribir "variables".
+
+* Luego, seleccionamos las siguientes opciones:
+
+
+* Ahora tan solo queda dar en aceptar a las tres ventanas.
 
 2.- Luego, se debe ir al siguiente enlace con el fin de descargar Visual Studio Code: https://code.visualstudio.com/
-### Proceso de instalaciòn
+* Una vez descargado el VSCode, se debe instalar las extensiones que VSCode tiene para C++. Siendo más específicos:
+
 
 3.- Descargar el siguiente archivo comprimido:
 
@@ -26,7 +40,7 @@ Para ejecutar el videojuego, se deben seguir los siguientes pasos:
 
 8.- Seleccionar Open Folder(abrir carpeta/folder/directorio).
 
-9.- Seleccionar la carpeta donde se descomprimiò el archivo.ç
+9.- Seleccionar la carpeta donde se descomprimiò el archivo.
 
 10.- Seleccionar el archivo Main.cpp.
 
