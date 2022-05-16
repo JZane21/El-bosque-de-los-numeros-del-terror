@@ -59,7 +59,7 @@ https://sourceforge.net/projects/mingw/files/
 
 
 
-##Ejecuciòn del programa
+## Ejecuciòn del programa
 Una vez inicializado la ejecuciòn del archivo Main.cpp, se deberà tomar en cuenta lo siguiente para que sea posible interactuar con el programa correctamente.
 
 * Se le aparecerà una introducciòn al programa del cual puede leerlo con calma o directamente saltarlo con la tecla ENTER.
@@ -82,9 +82,9 @@ Y así sucesivamente, porsupuesto, esto variará en cada momento que nos desplac
 * Una vez pierda o gane, usted tendrá la opción de volver a jugar o salir del juego.
 
 
-##Algoritmo
+## Algoritmo
 
-###Dijkstra:
+### Dijkstra:
 Este algoritmo, nos ayuda a encontrar el camino más corto para moverse de un vértice a otro en un grafo, y este mismo, es usado en la dínamica del juego cuando acabamos con un monstruo y este nos da una parte del camino más corto que debemos seguir para escapar.
 
 Pero a diferencia de un algoritmo de tipo Dijkstra normal, este utiliza arreglos para adquirir datos y construir el grafo como tal, pero a la hora de movilizarnos, utiliza un vector como es debido.
