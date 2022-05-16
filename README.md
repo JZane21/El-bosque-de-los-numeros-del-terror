@@ -43,20 +43,25 @@ https://sourceforge.net/projects/mingw/files/
 
 ![pf3](https://user-images.githubusercontent.com/82000556/168502883-fb344cc3-904e-41f5-91d7-b62bc0698aea.jpg)
 
-3.- Descargar el siguiente archivo comprimido:
+3.- Descargar la carpeta del directorio
 
-4.- Crear una carpeta y colocar el archivo comprimido en ese directorio.
+4.- Abrir VSCode.
 
-5.- Descomprimir el archivo.
+5.- Seleccionar file(Archivo).
 
-6.- Abrir VSCode.
+6.- Seleccionar Open Folder(abrir carpeta).
 
-7.- Seleccionar files(Archivos).
+7.- Seleccionar la carpeta que se descargò.
 
-8.- Seleccionar Open Folder(abrir carpeta/folder/directorio).
+8.- Seleccionar el archivo Main.cpp.
 
-9.- Seleccionar la carpeta donde se descomprimiò el archivo.
+9.- Ejecutar el archivo con el boton play que se encuentra en la parte superior derecha.
 
-10.- Seleccionar el archivo Main.cpp.
 
-11.- Ejecutar el archivo con el boton play que se encuentra en la parte superior derecha.
+
+##Ejecuciòn del programa
+Una vez inicializado la ejecuciòn del archivo Main.cpp, se deberà tomar en cuenta lo siguiente para que sea posible interactuar con el programa correctamente.
+
+* Se le aparecerà una introducciòn al programa del cual puede leerlo con calma o directamente saltarlo con la tecla ENTER.
+
+* 
