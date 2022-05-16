@@ -1,0 +1,1 @@
+grafo[nverticeActual-1][nvertice-1].first
