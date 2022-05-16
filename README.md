@@ -62,66 +62,29 @@ https://sourceforge.net/projects/mingw/files/
 ##Ejecuciòn del programa
 Una vez inicializado la ejecuciòn del archivo Main.cpp, se deberà tomar en cuenta lo siguiente para que sea posible interactuar con el programa correctamente.
 
+* Se le aparecerà una introducciòn al programa del cual puede leerlo con calma o directamente saltarlo con la tecla ENTER.
+
 * Usted tendrá la opción de elegir que mapa desea jugar pulsando un número del 1 al 6, pero si no desea jugar, puede pulsar el número 0 para finalizar el juego.
 
-* Se le aparecerà una introducciòn al programa del cual puede leerlo con calma o directamente saltarlo con la tecla ENTER.
+* Se le explicará la dínamica del juego a través de un texto para interactuar con el correctamente.
 
 * Se le mostrará un estado del juego el cual representa el estado de su personaje dentro del juego. Usted tendrá la posibilidad de interactuar con dicho personaje con los siguientes comandos:
 
 (siempre todo en mayúsuclas)
 'A Número Posición' para avanzar a una posición específica que se encuentre disponible. El número de la posición a la cual avanzar, se relaciona con el número alfabético al cual usted puede moverse, y esto se clasifica de la siguiente manera:
-A = 1
 
-B = 2
+1.- A 2.- C 3.- Z
 
-C = 3
+Y así sucesivamente, porsupuesto, esto variará en cada momento que nos desplacemos de un nodo a otro.
 
-D = 4
-
-E = 5
-
-F = 6
-
-G = 7
-
-H = 8
-
-I = 9
-
-J = 10
-
-K = 11
-
-L = 12
-
-M = 13
-
-N = 14
-
-O = 15
-
-P = 16
-
-Q = 17
-
-R = 18
-
-S = 19
-
-T = 20
-
-U = 21
-
-V = 22
-
-W = 23
-
-X = 24
-
-Y = 25
-
-Z = 26
-
-'D NúmeroPrimo' De esta manera, uno ataca a los números monstruos, pero estos son limitados y se le muestra la cantidad de números primos que usted posee.
+'D NúmeroPrimo' De esta manera, uno ataca a los números monstruos, pero estos son limitados y se le muestra la cantidad de números primos que usted posee. Y para seleccionarlo, usted debe de escribir el número de la posición en la que se encuentre el número primo.
 
 * Una vez pierda o gane, usted tendrá la opción de volver a jugar o salir del juego.
+
+
+##Algoritmo
+
+###Dijkstra:
+Este algoritmo, nos ayuda a encontrar el camino más corto para moverse de un vértice a otro en un grafo, y este mismo, es usado en la dínamica del juego cuando acabamos con un monstruo y este nos da una parte del camino más corto que debemos seguir para escapar.
+
+Pero a diferencia de un algoritmo de tipo Dijkstra normal, este utiliza arreglos para adquirir datos y construir el grafo como tal, pero a la hora de movilizarnos, utiliza un vector como es debido.
